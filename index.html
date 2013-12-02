@@ -6,6 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
   <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" />
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6998452/685122/css/fonts.css" />
   <title>Pocket</title>
   <script src='https://cdn.firebase.com/v0/firebase.js'></script>
   <link href="/assets/css/all.css" media="screen" rel="stylesheet" type="text/css" />
@@ -16,98 +17,102 @@
 <head>
 <body id="wrap">
   <div class="drawer" id="drawer">
-    <nav class="drawer-nav drawer-top other">
+    <nav class="drawer-nav drawer-top other" id="drawer-top">
       <div class="keyboard" id="resetter">
-        <div class="col col1of1">
+        <div class="key-container">
   <h2 class="output"> </h2>
-</div>
 
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="1">1</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="2">2</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="3">3</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="4">4</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="5">5</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="6">6</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="7">7</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="8">8</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="9">9</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value=".">.</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="0">0</a>
-</div>
-<div class="col col1of3">
-  <a class="del" ref="/" data-value="x">x</a>
-</div>
-<div class="col col1of3 pre1of3">
-  <a class="go" ref="/" data-value="go">go</a>
+  <div class="input">
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="1">1</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="2">2</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="3">3</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="4">4</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="5">5</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="6">6</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="7">7</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="8">8</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="9">9</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value=".">.</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="0">0</a>
+    </div>
+    <div class="col col1of3">
+      <a class="del" ref="#" data-value="x">x</a>
+    </div>
+    <div class="col col1of3 pre1of3">
+      <a class="go" ref="#" data-value="go">go</a>
+    </div>
+  </div>
 </div>
       </div>
     </nav>
 
-    <nav class="drawer-nav drawer-bottom self">
+    <nav class="drawer-nav drawer-bottom self" id="drawer-bottom">
       <div class="keyboard" id="subtracter">
-        <div class="col col1of1">
+        <div class="key-container">
   <h2 class="output"> </h2>
-</div>
 
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="1">1</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="2">2</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="3">3</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="4">4</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="5">5</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="6">6</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="7">7</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="8">8</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="9">9</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value=".">.</a>
-</div>
-<div class="col col1of3">
-  <a class="key" ref="/" data-value="0">0</a>
-</div>
-<div class="col col1of3">
-  <a class="del" ref="/" data-value="x">x</a>
-</div>
-<div class="col col1of3 pre1of3">
-  <a class="go" ref="/" data-value="go">go</a>
+  <div class="input">
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="1">1</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="2">2</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="3">3</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="4">4</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="5">5</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="6">6</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="7">7</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="8">8</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="9">9</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value=".">.</a>
+    </div>
+    <div class="col col1of3">
+      <a class="key" ref="#" data-value="0">0</a>
+    </div>
+    <div class="col col1of3">
+      <a class="del" ref="#" data-value="x">x</a>
+    </div>
+    <div class="col col1of3 pre1of3">
+      <a class="go" ref="#" data-value="go">go</a>
+    </div>
+  </div>
 </div>
       </div>
     </nav>
@@ -115,20 +120,20 @@
   <div class="main-content" id="main-content">
     <div class="frame">
   <aside class="other">
-    <a href="#" data-direction="active-top" class="toggle" id="other"></a>
+    <a href="#" data-direction="active-top" class="toggle opener" id="other"></a>
   </aside>
     <main>
       <h1 id="pocket-value" class="pocket_value"></h1>
     </main>
   <aside class="self">
-    <a href="#" data-direction="active-bottom" class="toggle" id="self"></a>
+    <a href="#" data-direction="active-bottom" class="toggle opener" id="self"></a>
   </aside>
 </div>
 
   </div>
 </body>
   <script src="/assets/js/drawer.js" type="text/javascript"></script>
-  <script src="/assets/js/firebase.js" type="text/javascript"></script>
+  <script src="/assets/js/pocket.js" type="text/javascript"></script>
   <script src="/assets/js/keyboard.js" type="text/javascript"></script>
   <script src="/assets/js/touchevents.js" type="text/javascript"></script>
 </html>
